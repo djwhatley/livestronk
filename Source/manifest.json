@@ -11,5 +11,6 @@
 			"run_at": "document_end"
 		}
 	]
+	"default_icon": "icon.png"
 }
 
