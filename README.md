@@ -1,4 +1,4 @@
-#LIVESTRONK
+\#LIVESTRONK
 =============
 
 Chrome extension that replaces occurrences of 'strong' with 'stronk'
