@@ -33,6 +33,7 @@ function handleText(textNode)
 
 	v = v.replace(/Strong/g, "Stronk");
 	v = v.replace(/strong/g, "stronk");
+	v = v.replace(/STRONG/g, "STRONK");
 	
 	textNode.nodeValue = v;
 }
