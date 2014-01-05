@@ -34,6 +34,10 @@ function handleText(textNode)
 	v = v.replace(/Strong/g, "Stronk");
 	v = v.replace(/strong/g, "stronk");
 	v = v.replace(/STRONG/g, "STRONK");
+
+	v = v.replace(/Strength/g, "Stronktitude");
+	v = v.replace(/strength/g, "stronktitude");
+	v = v.replace(/STRENGTH/g, "STRONKTITUDE");
 	
 	textNode.nodeValue = v;
 }
